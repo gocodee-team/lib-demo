@@ -9,7 +9,7 @@ export class GocodeeLibDemoService {
   message = new BehaviorSubject('');
   visible = new BehaviorSubject(false);
 
-  constructor( @Inject('values') private config) { }
+  constructor( @Inject('config') private config) { }
 
   sumValue(val1: number, val2: number ) {
     let sum = 0;

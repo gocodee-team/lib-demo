@@ -56,10 +56,10 @@
         /** @nocollapse */
         GocodeeLibDemoService.ctorParameters = function () {
             return [
-                { type: undefined, decorators: [{ type: i0.Inject, args: ['values',] }] }
+                { type: undefined, decorators: [{ type: i0.Inject, args: ['config',] }] }
             ];
         };
-        /** @nocollapse */ GocodeeLibDemoService.ngInjectableDef = i0.defineInjectable({ factory: function GocodeeLibDemoService_Factory() { return new GocodeeLibDemoService(i0.inject("values")); }, token: GocodeeLibDemoService, providedIn: "root" });
+        /** @nocollapse */ GocodeeLibDemoService.ngInjectableDef = i0.defineInjectable({ factory: function GocodeeLibDemoService_Factory() { return new GocodeeLibDemoService(i0.inject("config")); }, token: GocodeeLibDemoService, providedIn: "root" });
         return GocodeeLibDemoService;
     }());
 

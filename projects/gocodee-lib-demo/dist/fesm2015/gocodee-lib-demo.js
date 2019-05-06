@@ -46,9 +46,9 @@ GocodeeLibDemoService.decorators = [
 ];
 /** @nocollapse */
 GocodeeLibDemoService.ctorParameters = () => [
-    { type: undefined, decorators: [{ type: Inject, args: ['values',] }] }
+    { type: undefined, decorators: [{ type: Inject, args: ['config',] }] }
 ];
-/** @nocollapse */ GocodeeLibDemoService.ngInjectableDef = defineInjectable({ factory: function GocodeeLibDemoService_Factory() { return new GocodeeLibDemoService(inject("values")); }, token: GocodeeLibDemoService, providedIn: "root" });
+/** @nocollapse */ GocodeeLibDemoService.ngInjectableDef = defineInjectable({ factory: function GocodeeLibDemoService_Factory() { return new GocodeeLibDemoService(inject("config")); }, token: GocodeeLibDemoService, providedIn: "root" });
 
 /**
  * @fileoverview added by tsickle
