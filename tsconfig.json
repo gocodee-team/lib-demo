@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "gocodee-lib-demo": [
+        "dist/gocodee-lib-demo"
+      ],
+      "gocodee-lib-demo/*": [
+        "dist/gocodee-lib-demo/*"
+      ]
+    }
   }
 }

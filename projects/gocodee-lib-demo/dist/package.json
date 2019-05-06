@@ -1,0 +1,26 @@
+{
+  "name": "gocodee-lib-demo",
+  "version": "0.0.1",
+  "author": "Erik © GOCODEE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gocodee-team/lib-demo.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^7.1.0",
+    "@angular/core": "^7.1.0"
+  },
+  "main": "bundles/gocodee-lib-demo.umd.js",
+  "module": "fesm5/gocodee-lib-demo.js",
+  "es2015": "fesm2015/gocodee-lib-demo.js",
+  "esm5": "esm5/gocodee-lib-demo.js",
+  "esm2015": "esm2015/gocodee-lib-demo.js",
+  "fesm5": "fesm5/gocodee-lib-demo.js",
+  "fesm2015": "fesm2015/gocodee-lib-demo.js",
+  "typings": "gocodee-lib-demo.d.ts",
+  "metadata": "gocodee-lib-demo.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
