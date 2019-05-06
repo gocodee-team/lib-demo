@@ -78,7 +78,7 @@ var GocodeeLibDemoComponent = /** @class */ (function () {
     GocodeeLibDemoComponent.decorators = [
         { type: Component, args: [{
                     selector: 'gl-gocodee-lib-demo',
-                    template: './gocodee-lib-demo.component.html',
+                    template: "<div id=\"toast\" *ngIf=\"toast.visible | async\">\n    {{ toast.message | async }}<br>\n    <a (click)=\"toast.hide()\">Dismiss</a><br/>\n  </div>\n  ",
                     styles: ['./gocodee-lib-demo.component.scss']
                 }] }
     ];
