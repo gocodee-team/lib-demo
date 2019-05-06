@@ -19,8 +19,9 @@ Add this command to the terminal:
 
 # Tests
 Unit test 
-<code>ng test</code> for unit test via [Karma](https://karma-runner.github.io).
-<code>ng e2e</code> for end-to-end test via [Protractor](http://www.protractortest.org/).
+<code>ng test</code> via [Karma](https://karma-runner.github.io).
+End-to-end test
+<code>ng e2e</code> via [Protractor](http://www.protractortest.org/).
  
 # How to use
 In your project:
