@@ -27,4 +27,4 @@ In your project:
 <code>import 'GocodeeLibDemoModule' from 'gocodee-lib-demo'</code>
 
 # License
-This is open source library serve for the education. All the example in this project is free to use for education purpose.
+This project is a open source library of GOCODEE team in onder to serve for the education. All the example in this project is free to use for education purpose.
