@@ -14,4 +14,17 @@ This project is a exist as a small demo for beginer to know how to write a Angul
 Angular 7 
 
 # Installation
-<code></code>
+Add this command to the terminal:
+<code>npm install gocodee-lib-demo</code>
+
+# Tests
+Unit test 
+<code>ng test</code> for unit test via [Karma](https://karma-runner.github.io).
+<code>ng e2e</code> for end-to-end test via [Protractor](http://www.protractortest.org/).
+ 
+# How to use
+In your project:
+<code>import 'GocodeeLibDemoModule' from 'gocodee-lib-demo'</code>
+
+# License
+This is open source library serve for the education. All the example in this project is free to use for education purpose.
