@@ -34,6 +34,19 @@ In your project module:<br/>
     GocodeeLibDemoModule.forRoot({ brand: "Some Configues"})
   ],
   ...
-  ```
+  ```<br/>
+In the component that will run the library, enter these codes:<br/>
+```javascript
+...
+import { GocodeeLibDemoService } from 'gocodee-lib-demo';
+
+...
+export class StretchComponent implements OnInit {
+
+  constructor(private toast: GocodeeLibDemoService) { 
+    this.toast.sumValue(5,6);
+  }
+...
+```
 ## License
 This project is a open source library of GOCODEE team in onder to serve for the education. All the example in this project is free to use for education purpose.
