@@ -52,7 +52,7 @@ export class StretchComponent implements OnInit {
 ...
 ```
 If you see an Error like : 
-<code>No provider for ViewContainerRef</code>
+<code>No provider for ViewContainerRef</code><br/>
 We could insert this line to the angular.json of your app to fix it
 ```javascript
 ...
