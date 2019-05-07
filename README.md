@@ -27,13 +27,15 @@ End-to-end test
 In your project module:
 <code>import 'GocodeeLibDemoModule' from 'gocodee-lib-demo'</code><br/>
 <code>
-  ...<br/>
-  @NgModule({<br/>
-  imports: [<br/>
-    CommonModule,<br/>
-    GocodeeLibDemoModule.forRoot({ brand: "Some Configues"})<br/>
-  ],<br/>
+  <p>
   ...
+  @NgModule({
+  imports: [
+    CommonModule
+    GocodeeLibDemoModule.forRoot({ brand: "Some Configues"})
+  ],
+  ...
+  </p>
 </code>
 
 # License
