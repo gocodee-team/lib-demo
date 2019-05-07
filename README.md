@@ -24,8 +24,17 @@ End-to-end test
 <code>ng e2e</code> via [Protractor](http://www.protractortest.org/).
  
 # How to use
-In your project:
+In your project module:
 <code>import 'GocodeeLibDemoModule' from 'gocodee-lib-demo'</code>
+<code>
+  ...
+  @NgModule({
+  imports: [
+    CommonModule,
+    GocodeeLibDemoModule.forRoot({ brand: "Some Configues"})
+  ],
+  ...
+</code>
 
 # License
 This project is a open source library of GOCODEE team in onder to serve for the education. All the example in this project is free to use for education purpose.
