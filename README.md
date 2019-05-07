@@ -24,9 +24,9 @@ End-to-end test
 <code>ng e2e</code> via [Protractor](http://www.protractortest.org/).
  
 # How to use
-In your project module:
-<code>import 'GocodeeLibDemoModule' from 'gocodee-lib-demo'</code><br/>
+In your project module:<br/>
   ```javascript
+  import 'GocodeeLibDemoModule' from 'gocodee-lib-demo'
   ...
   @NgModule({
   imports: [
