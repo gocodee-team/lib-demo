@@ -34,8 +34,11 @@ In your project module:<br/>
     GocodeeLibDemoModule.forRoot({ brand: "Some Configues"})
   ],
   ...
-  ```<br/>
+  ```
+<br/>
+
 In the component that will run the library, enter these codes:<br/>
+
 ```javascript
 ...
 import { GocodeeLibDemoService } from 'gocodee-lib-demo';
