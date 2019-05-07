@@ -50,6 +50,11 @@ export class StretchComponent implements OnInit {
   constructor(private toast: GocodeeLibDemoService) { 
     this.toast.sumValue(5,6);
   }
+  
+  ngOnInit() {
+   ...
+   this.toast.each(this.fruits,console.log);
+  }
 ...
 ```
 If you see an Error like : 
