@@ -6,9 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This project is a exist as a small demo for beginer to know how to write a Angular Library.
 
-# H5 Build Status
+##### Build Status
 
-# H5 Code Style
+##### Code Style
 
 # Tech/Framework Used
 Angular 7 
