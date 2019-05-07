@@ -2,22 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
-# Movtivation
+## Movtivation
 
 This project is a exist as a small demo for beginer to know how to write a Angular Library.
 
-##### Build Status
+### Build Status
 
-##### Code Style
+### Code Style
 
 # Tech/Framework Used
 Angular 7 
 
-# Installation
+## Installation
 Add this command to the terminal:
 <code>npm install gocodee-lib-demo</code>
 
-# Tests
+## Tests
 Unit test 
 <code>ng test</code> via [Karma](https://karma-runner.github.io).<br/>
 End-to-end test
@@ -35,5 +35,5 @@ In your project module:<br/>
   ],
   ...
   ```
-# License
+## License
 This project is a open source library of GOCODEE team in onder to serve for the education. All the example in this project is free to use for education purpose.
