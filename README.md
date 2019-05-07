@@ -10,7 +10,7 @@ This project is a exist as a small demo for beginer to know how to write a Angul
 
 ### Code Style
 
-# Tech/Framework Used
+## Tech/Framework Used
 Angular 7 
 
 ## Installation
