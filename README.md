@@ -16,7 +16,9 @@ Angular 7
 
 ## Installation
 Add this command to the terminal:
-<code>npm install gocodee-lib-demo</code>
+<code>npm install gocodee-lib-demo</code><br/>
+Because in this library the 'underscore' lib is a peerDependencies so we must install it in main project with the command: <br/>
+<code>npm install underscore</code>
 
 ## Tests
 Unit test 
