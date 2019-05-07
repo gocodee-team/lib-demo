@@ -19,13 +19,13 @@ Add this command to the terminal:
 
 # Tests
 Unit test 
-<code>ng test</code> via [Karma](https://karma-runner.github.io).
+<code>ng test</code> via [Karma](https://karma-runner.github.io).<br/>
 End-to-end test
 <code>ng e2e</code> via [Protractor](http://www.protractortest.org/).
  
 # How to use
 In your project module:
-<code>import 'GocodeeLibDemoModule' from 'gocodee-lib-demo'</code>
+<code>import 'GocodeeLibDemoModule' from 'gocodee-lib-demo'</code><br/>
 <code>
   ...
   @NgModule({
