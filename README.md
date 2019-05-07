@@ -4,7 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Motivation
 
-This project is a exist as a small demo for beginer to know how to write a Angular Library. In this library we will learn how to know how a native angular library work and learn how to use a JS lib inside an angular app.
+This project is a exist as a small demo for beginer to know how to write a Angular Library. In this library we will learn how to know how a native angular library work and learn how to use a JS lib inside an angular app.<br/>
+In this demo I will use 'underscore' js lib to seperate particles in an array.
 
 ### Build Status
 
