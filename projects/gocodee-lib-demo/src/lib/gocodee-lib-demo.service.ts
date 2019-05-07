@@ -12,6 +12,7 @@ export class GocodeeLibDemoService {
 
   constructor(@Inject('config') private config) { }
 
+  //Pass two variables here to start the operator
   sumValue(val1: number, val2: number) {
     let sum = 0;
     sum = val1 + val2;
@@ -26,6 +27,7 @@ export class GocodeeLibDemoService {
     this.visible.next(false);
   }
 
+  // Pass the array and viewer to show up the result
   each(array, delegate) {
     return _.each(array, delegate);
   }
