@@ -1,4 +1,5 @@
 import { BehaviorSubject } from 'rxjs';
+import { _ } from 'underscore';
 import { Injectable, Inject, Component, NgModule, defineInjectable, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -45,6 +46,19 @@ var GocodeeLibDemoService = /** @class */ (function () {
      */
     function () {
         this.visible.next(false);
+    };
+    /**
+     * @param {?} array
+     * @param {?} delegate
+     * @return {?}
+     */
+    GocodeeLibDemoService.prototype.each = /**
+     * @param {?} array
+     * @param {?} delegate
+     * @return {?}
+     */
+    function (array, delegate) {
+        return _.each(array, delegate);
     };
     GocodeeLibDemoService.decorators = [
         { type: Injectable, args: [{

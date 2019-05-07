@@ -7,4 +7,5 @@ export declare class GocodeeLibDemoService {
     sumValue(val1: number, val2: number): void;
     show(): void;
     hide(): void;
+    each(array: any, delegate: any): any;
 }

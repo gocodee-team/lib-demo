@@ -10,6 +10,9 @@
     "@angular/common": "^7.1.0",
     "@angular/core": "^7.1.0"
   },
+  "devDependencies": {
+    "underscore": "^1.9.1"
+  },
   "main": "bundles/gocodee-lib-demo.umd.js",
   "module": "fesm5/gocodee-lib-demo.js",
   "es2015": "fesm2015/gocodee-lib-demo.js",

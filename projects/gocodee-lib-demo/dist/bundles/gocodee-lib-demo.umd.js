@@ -1,8 +1,8 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('rxjs'), require('@angular/core'), require('@angular/common')) :
-    typeof define === 'function' && define.amd ? define('gocodee-lib-demo', ['exports', 'rxjs', '@angular/core', '@angular/common'], factory) :
-    (factory((global['gocodee-lib-demo'] = {}),global.rxjs,global.ng.core,global.ng.common));
-}(this, (function (exports,rxjs,i0,common) { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('rxjs'), require('underscore'), require('@angular/core'), require('@angular/common')) :
+    typeof define === 'function' && define.amd ? define('gocodee-lib-demo', ['exports', 'rxjs', 'underscore', '@angular/core', '@angular/common'], factory) :
+    (factory((global['gocodee-lib-demo'] = {}),global.rxjs,global.underscore,global.ng.core,global.ng.common));
+}(this, (function (exports,rxjs,underscore,i0,common) { 'use strict';
 
     /**
      * @fileoverview added by tsickle
@@ -47,6 +47,19 @@
          */
             function () {
                 this.visible.next(false);
+            };
+        /**
+         * @param {?} array
+         * @param {?} delegate
+         * @return {?}
+         */
+        GocodeeLibDemoService.prototype.each = /**
+         * @param {?} array
+         * @param {?} delegate
+         * @return {?}
+         */
+            function (array, delegate) {
+                return underscore._.each(array, delegate);
             };
         GocodeeLibDemoService.decorators = [
             { type: i0.Injectable, args: [{
