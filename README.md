@@ -27,7 +27,7 @@ End-to-end test
 In your project module:
 <code>import 'GocodeeLibDemoModule' from 'gocodee-lib-demo'</code><br/>
 <code>
-  ```nodejs
+  ```javascript
   ...
   @NgModule({
   imports: [
@@ -35,6 +35,7 @@ In your project module:
     GocodeeLibDemoModule.forRoot({ brand: "Some Configues"})
   ],
   ...
+  ```
 </code>
 
 # License
