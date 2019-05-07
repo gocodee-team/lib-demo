@@ -51,5 +51,23 @@ export class StretchComponent implements OnInit {
   }
 ...
 ```
+If you see an Error like : 
+<code>No provider for ViewContainerRef</code>
+We could insert this line to the angular.json of your app to fix it
+```javascript
+...
+ "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/ludus-parallax",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "src/tsconfig.app.json",
+       -->  "preserveSymlinks": true,
+...
+```
+
 ## License
 This project is a open source library of GOCODEE team in onder to serve for the education. All the example in this project is free to use for education purpose.
