@@ -6,9 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This project is a exist as a small demo for beginer to know how to write a Angular Library.
 
-# Build Status
+# H5 Build Status
 
-# Code Style
+# H5 Code Style
 
 # Tech/Framework Used
 Angular 7 
@@ -26,7 +26,6 @@ End-to-end test
 # How to use
 In your project module:
 <code>import 'GocodeeLibDemoModule' from 'gocodee-lib-demo'</code><br/>
-<code>
   ```javascript
   ...
   @NgModule({
@@ -36,7 +35,5 @@ In your project module:
   ],
   ...
   ```
-</code>
-
 # License
 This project is a open source library of GOCODEE team in onder to serve for the education. All the example in this project is free to use for education purpose.
