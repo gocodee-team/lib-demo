@@ -26,8 +26,7 @@ End-to-end test
 # How to use
 In your project module:
 <code>import 'GocodeeLibDemoModule' from 'gocodee-lib-demo'</code><br/>
-<code>
-  <p>
+<b>
   ...
   @NgModule({
   imports: [
@@ -35,8 +34,7 @@ In your project module:
     GocodeeLibDemoModule.forRoot({ brand: "Some Configues"})
   ],
   ...
-  </p>
-</code>
+</b>
 
 # License
 This project is a open source library of GOCODEE team in onder to serve for the education. All the example in this project is free to use for education purpose.
